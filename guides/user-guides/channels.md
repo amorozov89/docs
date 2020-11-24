@@ -1,12 +1,12 @@
-# Channels
+# Каналы
 
-Conversations in Rocket.Chat occur in **channels**. Channels are chat rooms with useful features designed to increase communication and collaboration.
+Общение в Rocket.Chat происходит в **каналах**. Каналы - это чаты с полезными функциями, которые помогают улучшить общение и совместную работу.
 
-There are three kinds of channels: [public channels](channels.md#public-channels), [private groups](channels.md#private-groups), and [direct \(1-on-1\) messages](channels.md#direct-messages).
+Есть три вида каналов: [открытые каналы](channels.md#public-channels), [закрытые каналы](channels.md#private-groups), и [личная переписка 1 на 1](channels.md#direct-messages).
 
-## Public channels
+## Открытые каналы
 
-**Public channels** \(also called **channels** for short\) act as a base for all channel types. Use channels for conversations that are open to your entire team. Anyone on your team can join a channel.
+**Открытые каналы** \(also called **channels** for short\) act as a base for all channel types. Use channels for conversations that are open to your entire team. Anyone on your team can join a channel.
 
 Channels make it easy to find what's going on with your team. New team members can join a channel and read all the information previously shared by other users.
 
