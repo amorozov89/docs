@@ -2,7 +2,7 @@
 
 Общение в Rocket.Chat происходит в **каналах**. Каналы - это чаты с полезными функциями, которые помогают улучшить общение и совместную работу.
 
-Есть три вида каналов: [открытые каналы](channels.md#public-channels), [закрытые каналы](channels.md#private-groups), и [личная переписка 1 на 1](channels.md#direct-messages).
+Есть три вида каналов: [открытые каналы](channels.md#public-channels), [закрытые каналы](channels.md#private-groups), и [личная переписка (1 на 1)](channels.md#direct-messages).
 
 ## Открытые каналы
 
