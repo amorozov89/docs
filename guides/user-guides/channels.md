@@ -47,7 +47,7 @@
 * **Выключить/Включить:** Позволяет настроить, получать ли уведомления от этого канала или нет.
 * **Получать упоминания @all и @here/Отключить звук для упоминаний @all и @here:** Позволяет настроить получение уведомлений по упоминанями `@username`, `@all` или `@here` в этом канале.
 * **Скрыть счетчик/Показывать счетчик:** Показывать или скрывать количество непрочитанных сообщений.
-* **Звук уведомлений:** Вы можете насторитьChoose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
+* **Звук уведомлений:** Вы можете настороить звук уведомлений для компьютераhoose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
 
 > There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../administrator-guides/custom-sounds.md).
 
