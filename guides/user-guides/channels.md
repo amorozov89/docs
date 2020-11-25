@@ -2,45 +2,43 @@
 
 Общение в Rocket.Chat происходит в **каналах**. Каналы - это чаты с полезными функциями, которые помогают улучшить общение и совместную работу.
 
-Есть три вида каналов: [открытые каналы](channels.md#public-channels), [закрытые каналы](channels.md#private-groups), и [личная переписка (1 на 1)](channels.md#direct-messages).
+Есть три вида каналов: [открытые каналы](channels.md#public-channels), [закрытые каналы](channels.md#private-groups), и [личные сообщения (1 на 1)](channels.md#direct-messages).
 
 ## Открытые каналы
 
-**Открытые каналы** \(also called **channels** for short\) act as a base for all channel types. Use channels for conversations that are open to your entire team. Anyone on your team can join a channel.
+**Открытые каналы** \(коротко - **каналы**\) выступают основой для всех типов каналов. Используйте каналы для общения со всей вашей командой. Любой член вашей команды может присоединиться к каналу.
 
-Channels make it easy to find what's going on with your team. New team members can join a channel and read all the information previously shared by other users.
+С помощью каналов легко понять что происходит в команде. Новые люди могут присоединиться к каналу и прочитать все сообщения, ранее написанные другими пользователями.
 
-When in doubt, create a channel. Public conversations help you build a knowledge base of your organization with minimal effort. For example, create a channel for a company department or to discuss a specific programming language.
+Когда сомневаешься, создай канал. Публичные беседы помогут вам с минимальными усилиями создать базу знаний вашей организации. Например, создать канал для отдела компании или для обсуждения конкретного языка программирования.
 
-## Private groups
+## Закрытые каналы
 
-**Private groups** are closed channels. They are visible only to their members. Use private groups for subjects that are sensitive, confidential, or limited to a small group of team members.
+**Закрытые каналы** видны только их членам. Используйте частные группы для тем, которые являются чувствительными, конфиденциальными или ограничиваются небольшим кругом людей.
 
-Private groups are joined through invitation only. The administrator sets the permissions that determine who can invite others to a private group. By default, only administrators, room owners, and moderators can invite others to private rooms.
+К закрытым каналам присоединяются только по приглашению. Администратор устанавливает права, определяющие, кто может приглашать других в закрытый канал. По умолчанию, только администраторы, владельцы комнат и модераторы могут приглашать других в приватные комнаты.
 
-## Direct Messages
+## Личные сообщения
 
-**Direct messages \(DMs\)** are a private 1-on-1 conversation between team members. They can be sent to any user on your server.
+**Личные сообщения \(ЛС\)** это личная переписка один на один между членами команды. Они могут быть отправлены любому пользователю на вашем сервере.
 
-**Direct Messages Between Multiple Users** There is a feature that allows you to chat with multiple users inside a DM. For more info check: [Direct Messages Between Multiple Users](direct-messages-between-multiple-users.md).
+**Личные сообщения между несколькими пользователями** Существует функция, которая позволяет вам общаться с несколькими пользователями в ЛС. Для получения дополнительной информации, смотрите [Личные сообщения между несколькими пользователями](direct-messages-between-multiple-users.md).
 
-## Listing channels
+## Перечень каналов
 
-Find public and private channels that you are watching in the left sidebar under the **Channels** sections.
+Вы можете найти открытые и закрытые каналы за которыми вы наблюдаете в левом боковом меню в разделе **Каналы**.
 
-Public channels are represented by a hash symbol next to the channel name, and private channels by a lock. Public channels appear first above private channels below them and alphabetically ordered.
+Открытые каналы отмечены знаком решетки(хэштегом) перед названием канала, закрытые каналы помечены замочком.
 
-### Unread messages
+### Непрочитанные сообщения
 
-Channels with new messages appear bolded.
+Каналы с новыми сообщениями выделены жирным шрифтом.
 
-When using the **Unread Mode**, a new section called **Unread** appears on the left sidebar. All channels with unread messages move to this new section until the messages have been reads.
+Вы можете настроить перечень каналов таким образом, чтобы каналы с непрочитанными сообщениями оказывались в верху перечня. Для этого, в верхней части левого бокового меню нажмите на иконку сортировки (стрелка вниз четверная иконка слева) и поставьте галочку на опции **Непрочитанное наверх**.
 
-To activate Unread Mode, go to **My Account**&gt; **Preferences**. Change the **Sidebar channel list mode** setting to **Unread Rooms Mode**.
+### Упоминания
 
-### Mentions
-
-When someone mentions you with `@username`, `@all` or `@here`, a symbol or a number will appear alongside the channel name. When mentioned, an `@` symbol appears next to your name. If someone mentions `@all` or `@here` a number will show up showing the number of times the mention is specific to you.
+Когда кто то упоминает вас с помощью `@username`, `@all` или `@here`, рядом с именем канала появится символ или номер. Когда вас упоминают по имени, то рядом `@` symbol appears next to your name. If someone mentions `@all` or `@here` a number will show up showing the number of times the mention is specific to you.
 
 ### Notifications Preferences
 
