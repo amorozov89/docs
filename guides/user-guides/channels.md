@@ -40,14 +40,14 @@
 
 Когда кто то упоминает вас с помощью `@username`, `@all` или `@here`, рядом с именем канала появится номер, который показывает количество раз когда вас упоминали. Когда вас упоминают по имени, с помощью `@username`,  номер будет красного цвета. Когда вас упоминают с помощью `@all` или `@here` номер будет желтого цвета.
 
-### Notifications Preferences
+### Настройки уведомлений
 
-There are several notification settings a user can customize to channels. To find notification settings for a specific channel, go to the channel and click the **More** symbol at the top-right of the chat view. Then, select **Notification Preferences**.
+Есть несколько настроек уведомлений, которые вы можете применить к каналам. Чтобы найти настройки уведомлений для определенного канала, перейдя в канал нажмите на иконку **Показать больше**(в виде трех точек) в правом верхнем углу экрана, затем выберите **Настройки уведомлений**.
 
-* **Mute/Receive alerts:** Receive or mute any notifications from a channel.
-* **Mute/Receive mentions:** Receive or mute notifications for mentions while receiving notifications for messages in a channel.
-* **Hide/Show counter:** Show the number of unread messages for a channel.
-* **Notification sound:** Choose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
+* **Выключить/Включить:** Позволяет настроить, получать ли уведомления от этого канала или нет.
+* **Получать упоминания @all и @here/Отключить звук для упоминаний @all и @here:** Позволяет настроить получение уведомлений по упоминанями `@username`, `@all` или `@here` в этом канале.
+* **Скрыть счетчик/Показывать счетчик:** Показывать или скрывать количество непрочитанных сообщений.
+* **Звук уведомлений:** Вы можете насторитьChoose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
 
 > There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../administrator-guides/custom-sounds.md).
 
