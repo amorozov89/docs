@@ -1,4 +1,4 @@
-# Действия для канала
+# Действия внутри канала
 
 Внутри каналов вы можете делать больше, чем просто отправлять сообщения и загружать файлы. Увеличьте ваше взаимодействие с сообщениями с помощью действий для канала.
 
@@ -10,7 +10,7 @@ _Действия канала различаются в зависимости 
 
 ## Избранное
 
-Что бы лучше организовать и приоритизировать ваше общение, вы можете добавить в **избранное** \(или пометить **звездочкой**\) открытые каналы, закрытые каналы и личные сообщения.
+Чтобы лучше организовать и приоритизировать ваше общение, вы можете добавить в **избранное** \(или пометить **звездочкой**\) открытые каналы, закрытые каналы и личные сообщения.
 
 Чтобы добавить канал в изобранное, нажмите на **звездочку** слева от заголовка(названия) канала.
 
@@ -29,71 +29,72 @@ _Действия канала различаются в зависимости 
 * **Архивный**: показывает, находится ли канал в архиве, и позволяет заархивировать канал. Никто не может публиковать сообщения в архивном канале, заархивированный канал не отображается в поиске.
 * **Пароль**: показывает, есть ли у канала пароль, и позволяет вам установить пароль. Если канал имеет пароль, другим пользователям необходимо ввести пароль, чтобы стать участниками канала.
 
-If a [retention policy](../administrator-guides/retention-policies.md) is active on this channel, a red warning box appears saying when messages or files are deleted.
+Если вы не хотите чтобы в чате были видны системные сообщения(сообщения типа: @пользователь присоединился к каналу) вы можете настроить их отображение опцией **Скрыть Системные Сообщения** 
 
-## Search Messages
+## Поиск сообщений
 
-Rocket.Chat search supports basic search commands which work like Gmail search.
+Поиск Rocket.Chat поддерживает основные поисковые команды, которые работают как поиск в Gmail.
 
-Rocket.Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)." Regular expressions provide flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge like "CJK" languages \(Chinese, Japanese, Korean\).
+Rocket.Chat так же поддерживает использование "[регулярных выражений](https://ru.wikipedia.org/wiki/Регулярные_выражения)." Регулярные выражения обеспечивают гибкость и возможность поиска сообщений в чате на любом языке, даже на тех, на которых поиск традиционно являются проблемой, например, азиатские языки \ (китайский, японский, корейский \).
 
-### Basic Search Commands
+### Основные поисковые команды
 
-You can use these commands before or after entering search terms:
+Вы можете использовать эти команды до или после ввода условий поиска.:
 
-* `from:me` to search for messages only created by the current user.
-* `from:user.name` to search for messages created by a specific user. The username entered must be the format without spaces \(i.e., "john.doe" and not "John Doe."\) Search for any mentions of a user by searching for their username.
-* `has:star` returns messages that are starred by the current user.
-* `is:pinned` or `has:pin` returns messages that pin in the current channel.
-* `has:url` or `has:link` returns messages that contain a link.
-* `has:location` or `has:map` returns messages that have a location attached.
-* `before:dd/mm/yyyy`, `after:dd/mm/yyyy` and `on:dd/mm/yyyy` return message that were created before, after, or on the provided date.
+* `from:me` поиск сообщений отправленных текущим пользователем.
+* `from:user.name` поиск сообщений отправленных определенным пользователем. Имя пользователя должно быть указано без пробелов. \(например, "ivan.ivanov", а не "Ivan Ivanov."\) Найдите любые упоминания пользователя, выполнив поиск по его имени.
+* `has:star` возвращает сообщения, добавленные в избранное текущим пользователем.
+* `is:pinned` или `has:pin` возвращает сообщения, которые закреплены в текущем канале.
+* `has:url` или `has:link` возвращает сообщения, содержащие ссылку.
+* `has:location` или `has:map` возвращает сообщения с прикрепленным местоположением.
+* `before:dd/mm/yyyy`, `after:dd/mm/yyyy` и `on:dd/mm/yyyy` возвращает сообщения, созданные до, после или в указанную дату.
 
-  Dashes `dd-mm-yyyy` or dots `dd.mm.yyyy` can be used instead of slashes. `order:asc`, `order:ascend`, or `order:ascending` sorts messages by ascending timestamp.
+  Тире `dd-mm-yyyy` или точки `dd.mm.yyyy` можно использовать вместо косой черты(слэша). `order:asc`, `order:ascend`, и `order:ascending` сортирует сообщения по возрастанию по признаку время.
 
-* `order:desc`, `order:descend`, or `order:descending` sorts messages by descending timestamp.
+* `order:desc`, `order:descend`, или `order:descending` сортирует сообщения по убыванию по признаку время.
 
-  You can also jump to where a message is located by hovering the mouse over the search result and selecting `jump to message.`
+  Вы также можете перейти туда, где находится сообщение, наведя указатель мыши на результат поиска, нажать на кнопку **Больше**(три точки) и нажать `Перейти к сообщению`.
 
-### Regex
+### Регулярные выражения
 
-These references tell more about the powerful world of regex:
+Пройдя по этим ссылкам вы можете больше узнать о **Регулярных выражениях**:
 
 * Wikipedia - [https://en.wikipedia.org/wiki/Regular\_expression](https://en.wikipedia.org/wiki/Regular_expression)
 * Regex 101 - [https://regex101.com/\#javascript](https://regex101.com/#javascript)
 * Regexr - [http://regexr.com/](http://regexr.com/)
 * Regex Info - [http://www.regular-expressions.info/javascriptexample.html](http://www.regular-expressions.info/javascriptexample.html)
 
-## Members List
+## Список участников
 
-Here you can see all the users on the channel and see more information about them. If you have the proper permission, you can manage them on your channel.
+Здесь вы можете увидеть всех пользователей на канале и просмотреть информацию о них. Если у вас есть соответствующие права, вы можете управлять ими на своем канале.
 
-At first, the list only shows currently active users. To see all users, click the **show all**.
+Сначала, в списке показываются только активные в данный момент пользователи. Чтобы увидеть всех пользователей, выберите опцию **Все пользователи** вместо **Онлайн**.
 
-To see more information on a user, click their name on the list.
+Чтобы просмотреть дополнительную информацию о пользователе, нажмите на его имя в списке.
 
-The user preview screen shows their name, username, any role tags they might have, and their current timezone. From there, you can:
+На экране предварительного просмотра пользователя отображаются его имя, логин, роли которые у него есть, и текущий часовой пояс. Оттуда вы можете:
 
-* Start a direct conversation with the user by clicking the `conversation` option
-* Start a video call with the user
-* Set the user as channel owner
-* Set the user as a channel's moderator
-* Mute the user
-* Remove the user from the channel
+* Начать личную переписку с пользователем, нажав на кнопку **Direct Message**
+* Начать видеозвонок с пользователем
+* Установить пользователя как владельца канала
+* Установить пользователя модератором канала
+* Заглушить пользователя
+* Удалить пользователя с канала
 
-## Notifications
+## Уведомления
 
-You can change the behavior of notifications for channels where you are a member. By default, a channel notifies you whenever someone mentions you or uses the `@all` mention.
+Вы можете изменить поведение уведомлений для каналов, участником которых вы являетесь. По умолчанию канал уведомляет вас, когда кто-то упоминает вас или использует упоминание `@ all`.
 
-These options are on the channel notifications tab:
+Следующие параметры находятся на вкладке уведомлений канала:
 
-* **Disable Notifications**: Disable all notifications for the channel.
-* **Audio**: Select whether the channel will emit a sound whenever someone mentions you or posts a message in that channel. The sound played can be customized.
-* **Desktop**: Controls notification behavior when using any desktop app or browser.
-* **Mobile**: Controls push notification behavior when using any mobile app.
-* **Email**: Set whether an email sends whenever someone mentions you or posts a message, or disable email notifications.
-* **Unread Room Status**: Control whether the channel on the channel list highlights when there is a new message or mention.
-* **Unread Tray Icon**: Controls whether the tray icon highlights when there are new messages or mentions on the current channel.
+* **Выключить уведомления**: Отключить все уведомления для канала.
+* **Аудио**: Выберите, будет ли канал издавать звук, когда кто-то упоминает вас или публикует сообщение на этом канале. Воспроизводимый звук можно настроить.
+* **Компьютер**: Управляет поведением уведомлений при использовании любого настольного приложения или браузера.
+* **Мобильные устройства**: Управляет поведением push-уведомлений при использовании любого мобильного приложения.
+* **Электронная почта**: Устанавливает, будет ли отправляться электронное письмо всякий раз, когда кто-то упоминает вас или публикует сообщение.
+
+Параметры уведомлений в настройках профиля, в разделе **Сообщения**.
+* **Иконка уведомлений о непрочитанных сообщениях в трее**: Управляет выделением значка в трее при появлении новых сообщений или упоминаний.
 
 ## Message list options
 
