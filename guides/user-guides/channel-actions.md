@@ -96,16 +96,16 @@ Rocket.Chat так же поддерживает использование "[р
 Параметры уведомлений в настройках профиля, в разделе **Сообщения**.
 * **Иконка уведомлений о непрочитанных сообщениях в трее**: Управляет выделением значка в трее при появлении новых сообщений или упоминаний.
 
-## Message list options
+## Параметры списка участников
 
-This section details a list of all different types of lists specific to channels:
+В этом разделе представлен перечень всех типов списков, относящихся к каналам:
 
-* **Files List**: A list of all the files uploaded to the current channel.
-* **Mentions**: All messages that mentioned you on the current channel.
-* **Starred Messages**: All messages that you have starred in the current channel.
-* **Pinned Messages**: All messages pinned to the current channel.
+* **Файлы**: Список всех файлов, загруженных на канал.
+* **Упоминания**: Все сообщения, в которых вы упоминались на текущем канале.
+* **Отмеченные сообщения**: Все сообщения, которые вы отметили звездочкой в текущем канале.
+* **Прикрепленные сообщения**: Все сообщения закреплены на текущем канале..
 
-## Streaming
+## Потоки
 
 If the feature [Youtube Livestream](../administrator-guides/youtube-broadcasting.md) is enabled, the **Streaming** Tab activates on the channel actions menu.
 
