@@ -47,52 +47,52 @@
 * **Выключить/Включить:** Позволяет настроить, получать ли уведомления от этого канала или нет.
 * **Получать упоминания @all и @here/Отключить звук для упоминаний @all и @here:** Позволяет настроить получение уведомлений по упоминанями `@username`, `@all` или `@here` в этом канале.
 * **Скрыть счетчик/Показывать счетчик:** Показывать или скрывать количество непрочитанных сообщений.
-* **Звук уведомлений:** Вы можете настороить звук уведомлений для компьютераhoose a sound for notifications besides the alerts default **Desktop**.  Mobile currently supports only the alerts inside your mobile device. You can also select when to play the alert, duration of the alert, and the alert itself.
+* **Звук уведомлений:** Вы можете настроить звук уведомлений для **компьютера**. Для **мобильных устройств** и **электронной почты** в настоящий момент предоставляются только урезанные настройки.
 
 > There are some default choices for audio provided by Rocket.Chat. However, you also get to choose custom audio files for the same. Get further information about [Custom Sounds](../administrator-guides/custom-sounds.md).
+> Rocket.Chat по умолчанию предоставляет звуки для уведомлений. Однако вы также можете выбрать другие аудиофайлы для этой цели. Дополнительная информация о [Пользовательские звуки] (../ administrator-guides / custom-sounds.md).
 
-## Joining new channels and starting direct messages
+## Присоединение к новым каналам и начало общения в личных сообщениях
 
-There are three ways of joining a public channel; through search, invites, or mentions.
+Существует три способа подключения к открытому каналу: через поиск, приглашение или упоминание.
 
-For starting a direct message, you can either search the user you want to talk or click on that user's avatar and click on the **Conversation Button**.
+Для личного сообщения вы можете либо найти пользователя, с которым хотите поговорить, через поиск либо нажав на аватару этого пользователя и нажать на кнопку **Direct Message**.
 
-To search for channels and users, use the search bar under your account box. Alternatively you can press Ctrl/Cmd + k to access the search bar quickly.
+Для поиска каналов и пользователей нажмите на иконку лупы в верхнем левом углу экрана. Или вы можете нажать Ctrl / Cmd + k, чтобы быстро получить доступ к строке поиска.
 
-A search will find channels \(including the ones you are part of\) and users. You can not search inside private channels.
+Поиск найдет каналы \ (включая те, в которых вы состоите \) и пользователей. Вы не можете искать внутри закрытых каналов.
 
-When you click on a search result, the following can happen:
+При нажатии на результат поиска может произойти следующее:
 
-* If the result is a channel, and you already aren't part of it, you will join that channel;
-* If the result is a user, you will start a direct message with that user;
+* Если результатом является канал, в котором вы не состоите, вы присоединитесь к этому каналу;
+* Если результатом является пользователь, вы начнете личную переписку с этим пользователем;
 
-## Leaving channels
+## Выход из каналов
 
-There are two options for leaving a channel:
+Есть два варианта выхода из канала:
 
-1. **Hide:** Remain a member of the channel but remove it from your list of channels on the left-hand pane.
-2. **Leave:** Remove the channel your list of channels and abdicate membership.
+1. **Скрыть:** Вы останетесь участником канала, но удалите его из перечня каналов на левой панели.
+2. **Покинуть комнату:** Вы удалите канал из перечня каналов и выйдите из канала.
 
-Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel.
+У каждого канала есть **владелец**, и владелец канала не может покинуть канал, пока не назначит другого владельца этого канала.
 
-To leave a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the **leave channel** button.
+Чтобы покинуть канал, введите команду «/ part» или «/ leave» в окне сообщения. Или наведите указатель мыши на канал в списке каналов в левой части экрана и нажмите кнопку **показать больше**(три точки) далее нажмите **Покинуть комнату**.
 
-To hide a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the **hide channel** button.
+Чтобы скрыть канал, в списке каналов, в левой части экрана, выберите канал и нажмите на кнопку **показать больше**(три точки) далее нажмите **Скрыть**.
 
-## Creating Channels
+## Создание каналов
 
-To create a channel, you need to click on the plus `+` button that is alongside the channel search bar.
+Чтобы создать канал, вам нужно нажать на иконку с карандашом рядом с иконкой поиска каналов.
 
-A pop-up opens. You can set the name of that channel, choose if the channel is public or private, set the channel to read-only, broadcast the channel, and invite users.
+Откроется всплывающее окно. В нем вы можете выбрать имя нового канала, выбрать, является ли канал открытым или закрытым, установить канал только для чтения, или сделать широковещательный канал, а так же пригласить пользователей.
 
-In read-only channels, messages can only be sent by users with write permissions. All users can react to messages in this channel. Read-only channels are most suitable for announcements and voting.
+В каналах только для чтения сообщения могут отправляться только пользователями с правами на отправку сообщений. Все остальные пользователи могут реагировать на сообщения в этом канале. Каналы только для чтения наиболее подходят для объявлений и голосования.
 
-Encrypted channels, messages will be end to end encrypted. See: [End to End Encryption](end-to-end-encryption.md) for details.
+Опция зашифрованный канал. В зашифрованных каналах, сообщения будут зашифрованы сквозных шифрованием. См .: [Сквозное шифрование] (end-to-end-encryption.md) для дополнительной информации. (нет опции)
 
-Broadcasted channels behave like read-only channels, with only users with the right permission being able to post there. The differences to a read-only channel are:
+Широковещательные каналы ведут себя как **каналы только для чтения**, и только пользователи с соответствующими правами могут публиковать сообщения. Отличия от канала только для чтения:
 
-* Users without permission \(the same one to post on read-only channels\) inside this channel won't be able to see each other in the user list.
-* Users without permission won't be able to react to messages.
-* Every message contains a reply button that redirects the user to a direct message with the user that posted the message.
-* This channel cannot be converted to a read-only or open channel again.
-
+* Пользователи без прав \ (те же права, что и на каналы только для чтения \) внутри этого канала не смогут видеть друг друга в списке пользователей.
+* Пользователи без прав не смогут реагировать на сообщения.
+* Каждое сообщение содержит кнопку ответа, которая перенаправляет пользователя в личную переписку с пользователем, отправившим сообщение.
+* Этот канал нельзя снова преобразовать в канал только для чтения или в открытый.
