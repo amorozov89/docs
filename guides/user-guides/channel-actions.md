@@ -1,33 +1,33 @@
-# Channel Actions
+# Действия для канала
 
-Inside channels, you can also do more than post messages and upload files. Increase your interaction with messages through Channel actions.
+Внутри каналов вы можете делать больше, чем просто отправлять сообщения и загружать файлы. Увеличьте ваше взаимодействие с сообщениями с помощью действий для канала.
 
-## Find channel actions
+## Расположение действий для канала
 
-To find channel actions, go to the right of the channel title and click the menu.
+Кнопки действий для канала расположены в верхней правой части экрана, когда вы находитесь внутри канала.
 
-_Channel actions vary depending on the server configuration, so the items listed below might not all be visible in your installation._
+_Действия канала различаются в зависимости от конфигурации сервера, поэтому не все элементы, перечисленные ниже, могут быть видны в вашем случае._
 
-## Favorite
+## Избранное
 
-To help organize and prioritize your communications, you can **favorite** \(or **star**\) channels, private groups, and DMs.
+Что бы лучше организовать и приоритизировать ваше общение, вы можете добавить в **избранное** \(или пометить **звездочкой**\) открытые каналы, закрытые каналы и личные сообщения.
 
-To favorite a channel, click the **star** icon to the left of the channel header.
+Чтобы добавить канал в изобранное, нажмите на **звездочку** слева от заголовка(названия) канала.
 
-Favoriting a channel moves it to a **Favorites** section on the channels list, making it easier to access and find.
+Добавление в избранное, переводит канал в секцию **Избранное** в перечне каналов, поэтому его становится проще найти.
 
-## Channel Info
+## Информация о чате
 
-Here you can see all kinds of information about the current channel. If you admin permissions, you can edit this information. These are the channel info options:
+Здесь вы можете увидеть всевозможную информацию о текущем канале. Если у вас есть права администратора, вы можете редактировать эту информацию. Информация о канале включает в себя:
 
-* **Channel Name**: The name of the channel, how users see the title and find the channel via search.
-* **Topic**: The topic shows next to the title on the channel header. Great for giving more info about the channel.
-* **Announcement**: Announcements post in a bar under the channel header.
-* **Description**: The description of the channel.
-* **Private**: Tells whether a channel is private, and can set the channel to private or public.
-* **Read Only**: Tells whether a channel is read-only, and toggles the read-only status on the channel. In read-only channels, only people with admin permissions can post messages. Good for announcements channels.
-* **Archived**: Tells if a channel is archived, and toggles the archived status of a channel. Nobody can post messages in an archived channel, and channel search will not find that channel.
-* **Password**: Tells whether a channel has a password and let you set the password. If a channel has a password, other users need to enter the password to become a member of the channel.
+* **Имя канала**: название канала, так пользователи видят заголовок и находят канал в поиске.
+* **Тема**: тема отображается под названием канала в заголовке. Отлично подходит для предоставления дополнительной информации о канале.
+* **Объявление**: объявления размещаются в строке под заголовком канала в верхней части экрана.
+* **Описание**: описание канала.
+* **Закрытый**: показывает, является ли канал закрытым, можно сделать канал закрытым или открытым.
+* **Только для чтения**: показывает, доступен ли канал только для чтения, и позволяет сделать канал только для чтения. В каналах только для чтения публиковать сообщения могут только люди с правами администратора. Подходит для каналов объявлений.
+* **Архивный**: показывает, находится ли канал в архиве, и позволяет заархивировать канал. Никто не может публиковать сообщения в архивном канале, заархивированный канал не отображается в поиске.
+* **Пароль**: показывает, есть ли у канала пароль, и позволяет вам установить пароль. Если канал имеет пароль, другим пользователям необходимо ввести пароль, чтобы стать участниками канала.
 
 If a [retention policy](../administrator-guides/retention-policies.md) is active on this channel, a red warning box appears saying when messages or files are deleted.
 
